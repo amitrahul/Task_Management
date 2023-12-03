@@ -1,0 +1,17 @@
+.sidebar {
+  background-color: whitesmoke;
+  height: 100vh;
+  padding: 1rem;
+  max-width: 15vw;
+}
+
+.sidebar li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.list_item a {
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+}

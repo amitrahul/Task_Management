@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #34c94b;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Gabarito", sans-serif;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  /* background-color: var(--color-black); */
+  /* color: var(--color-white); */
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

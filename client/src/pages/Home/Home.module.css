@@ -1,0 +1,28 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../assets/bodyImage.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_Container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  gap: 15px;
+}
+.home_Container > h2 {
+  font-size: 50px;
+}
+.home_Container > p {
+  font-size: 25px;
+}
+.home_Container > a > button {
+  background-color: antiquewhite;
+  border-color: antiquewhite;
+}

@@ -1,0 +1,23 @@
+.addtask {
+  width: 100%;
+}
+.addtask form {
+  width: 70%;
+  margin: 3rem;
+  display: flex;
+  gap: 20px;
+  height: 7%;
+}
+
+.addtask input {
+  padding: 5px;
+  width: 30rem;
+  border: none;
+  outline: none;
+  background-color: beige;
+  border-radius: 8px;
+}
+
+.addtask button {
+  width: 30%;
+}

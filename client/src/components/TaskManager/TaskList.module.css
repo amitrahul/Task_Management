@@ -1,0 +1,15 @@
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 2rem;
+  background-color: var(--color-primary);
+  padding: 2rem 1.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.issue {
+  margin-left: 9rem;
+}
+.status {
+  margin-left: 5rem;
+}

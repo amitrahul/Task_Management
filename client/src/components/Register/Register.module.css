@@ -1,0 +1,48 @@
+.register_form {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.register_form_wrapper {
+  width: 50%;
+  height: 500px;
+  background-color: rgba(231, 242, 242, 0.924);
+}
+.form {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+  gap: 20px;
+}
+
+.form_group {
+  margin-bottom: 1rem;
+  width: 50%;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border-radius: 10px;
+}
+.form_group button {
+  width: 100%;
+  padding: 14px 0px;
+}
+.roleSelection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
