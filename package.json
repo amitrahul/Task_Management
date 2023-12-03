@@ -8,7 +8,8 @@
   },
   "scripts": {
     "client": "yarn --cwd client dev",
+    "start": "node server/server.js",
     "server": "nodemon server/server.js",
-    "dev": "concurrently \"yarn server\" \"yarn client\""
+    "dev": "concurrently \"yarn start\" \"yarn client\""
   }
 }
